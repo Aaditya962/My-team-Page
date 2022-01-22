@@ -37,6 +37,7 @@ p{
 .grid{
     margin-left: 14%;
     margin-top: 96px;
+    margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     text-align: center; 
@@ -75,6 +76,19 @@ p{
 .middle{
     margin-top: 120px;
     transform: translateY(50px);
+}
+.footer-para{
+    
+    margin: 30px auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+    min-width: 480px;
+    opacity: 0.6;
+}
+span{
+    font-weight: bold;
 }
 
 @media (max-width:600px){
@@ -129,5 +143,12 @@ p{
     }
     .even{
         transform: translateY(56px);
+    }
+    .footer-para{
+        position: relative;
+        bottom: 0;
+        margin-top: 0;
+        font-size: 1.3rem;
+        min-width: 450px;
     }
 }
